@@ -33,7 +33,7 @@ const Sidebar = ({ isOpen }) => {
     <aside
       className={`bg-slate-900 text-white transition-all duration-300 ${
         isOpen ? "w-64" : "w-16"
-      } min-h-screen relative flex-shrink-0 overflow-hidden`} /* Tambahkan overflow-hidden */
+      } min-h-screen relative flex-shrink-0 overflow-hidden`}
     >
       <div className="p-4">
         <div className="flex items-center space-x-3">
